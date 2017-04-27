@@ -4,6 +4,6 @@ class Island extends Element{
   int size;
   
   Island(){
-    super("./images/sprites/isle.png", 90, 160);
+    super("./images/sprites/isla_1.png", 90, 160);
   }
 }
