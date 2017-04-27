@@ -53,7 +53,7 @@ public class Enemy extends Element{
 }
     class Tanker extends Enemy {
       public Tanker(int section){
-        super("./images/sprites/enemy_" + (int) random(3) +  ".png", w(50), w(55));
+        super("./images/sprites/enemy_" + (int) random(3) +  ".png", w(60), w(65));
         this.kind = "Tank";
         this.lateralSpeed = section;
         this.score = 200;
@@ -61,7 +61,7 @@ public class Enemy extends Element{
     }
     class Helicopter extends Enemy {
       public Helicopter(int section){
-        super("./images/sprites/enemy_" + (int) random(3) +  ".png", w(50), w(55));
+        super("./images/sprites/enemy_" + (int) random(3) +  ".png",w(60), w(65));
         this.kind = "Helicopter";
         this.lateralSpeed = 1 + section;
         this.score = 200;
@@ -70,7 +70,7 @@ public class Enemy extends Element{
     
     class EnemyJet extends Enemy {
       public EnemyJet(int section){
-        super("./images/sprites/enemy_" + (int) random(3) +  ".png", w(50), w(55));
+        super("./images/sprites/enemy_" + (int) random(3) +  ".png", w(60), w(65));
         this.kind = "EnemyJet";
         this.lateralSpeed = 2 + section;
         this.score = 200;

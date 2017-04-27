@@ -28,6 +28,7 @@ PImage dashboard, underDashboard, reserve;
 PImage progressBackground, progressCursor, progressBridge;
 PImage musicOn, musicOff;
 PImage play, pause;
+PImage happyBday;
 
 HashMap<String, PImage> imageMap = null;
 
@@ -196,6 +197,7 @@ void setup() {
   musicOff = loadImage("./images/interface/sound_off.png");
   play = loadImage("./images/sprites/play.png");
   pause = loadImage("./images/sprites/pause.png");
+  happyBday = loadImage("./images/fondoFin.jpg");
   
   //Resize images
   startImg.resize(viewportW, viewportH);
@@ -585,7 +587,7 @@ void draw() {
   public void credits(){   
      
          tint(255, 80);  
-         image(startImg, x(0), y(0));     
+         image(happyBday, x(0), y(0));     
              
          tint(255);
          jet.crashed = false;     
