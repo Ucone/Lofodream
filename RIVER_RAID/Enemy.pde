@@ -46,6 +46,10 @@ public class Enemy extends Element{
     public Decoration getDebris() {
       return null;
     }
+    
+    public String getCareto(){
+      return "./images/sprites/enemy_" + (int) random(3) +  ".png";
+    }
 }
     class Tanker extends Enemy {
       public Tanker(int section){
@@ -57,7 +61,7 @@ public class Enemy extends Element{
     }
     class Helicopter extends Enemy {
       public Helicopter(int section){
-        super("./images/sprites/enemy_chopper.png", 50, 100);
+        super(getCareto(), 50, 100);
         this.kind = "Helicopter";
         this.lateralSpeed = 1 + section;
         this.score = 200;
@@ -66,21 +70,23 @@ public class Enemy extends Element{
     
     class EnemyJet extends Enemy {
       public EnemyJet(int section){
-        super("./images/sprites/enemy_jet.png", 50, 100);
+        super(getCareto(), 50, 100);
         this.kind = "EnemyJet";
         this.lateralSpeed = 2 + section;
         this.score = 200;
     }
-    }
     
-    class FinalEnemy extends Enemy {
-      public FinalEnemy(String str, int x, int y){
-        super(str, 300, 200);
-        this.kind = "";
-        this.yPos = y;
-        this.xPos = x;
 
     }
     
-    thdfbx
+    //class FinalEnemy extends Enemy {
+    //  public FinalEnemy(String str, int x, int y){
+    //    super(str, 300, 200);
+    //    this.kind = "";
+    //    this.yPos = y;
+    //    this.xPos = x;
+
+    //}
+    
+
 }
