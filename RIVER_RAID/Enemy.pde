@@ -81,4 +81,6 @@ public class Enemy extends Element{
         this.xPos = x;
 
     }
+    
+    thdfbx
 }
