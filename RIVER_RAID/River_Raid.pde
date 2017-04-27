@@ -28,6 +28,7 @@ PImage dashboard, underDashboard, reserve;
 PImage progressBackground, progressCursor, progressBridge;
 PImage musicOn, musicOff;
 PImage play, pause;
+PImage happyBday;
 
 HashMap<String, PImage> imageMap = null;
 
@@ -117,8 +118,8 @@ void checkTesting(){
 
 
 void setup() {
-  fullScreen(P2D);
-  //size(1200,600,P2D);
+  //fullScreen(P2D);
+  size(1200,600,P2D);
   setViewports();
   
   fontSize = (int)(20. / 1920. * (float)viewportW);
@@ -182,7 +183,7 @@ void setup() {
       
       cpSelection.setVisible(false);
   // Load images
-  startImg=loadImage("./images/welcome.png");
+  startImg=loadImage("./images/welcome.jpg");
   
   dashboard = loadImage("./images/interface/dashboard.png");
   underDashboard = loadImage("./images/interface/dashboard_under.png");
@@ -196,6 +197,7 @@ void setup() {
   musicOff = loadImage("./images/interface/sound_off.png");
   play = loadImage("./images/sprites/play.png");
   pause = loadImage("./images/sprites/pause.png");
+  happyBday = loadImage("./images/fondoFin.jpg");
   
   //Resize images
   startImg.resize(viewportW, viewportH);
@@ -585,7 +587,7 @@ void draw() {
   public void credits(){   
      
          tint(255, 80);  
-         image(startImg, x(0), y(0));     
+         image(happyBday, x(0), y(0));     
              
          tint(255);
          jet.crashed = false;     

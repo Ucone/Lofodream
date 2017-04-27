@@ -32,32 +32,32 @@ public class Story {
     case STORY_4B:
         image(getImage("./images/story/STORY_4.png", w(1000), h(1000)), x(0), y(0));
         fill(255, 255, 255);
-        text("G: " + player.getName() + ", you're our best pilot.\nOur neighbors, Planet Z, \nare amassing military forces\nacross the border canyon.\nOur only hope is preemptive strike against them.\nYou will pilot an experimental prototype jet,\ndestroying all bridges...", x(600), y(300));
+        text("G: HI " + player.getName() + "\n We are in emergency state, \nthe  Evil RACOBO is planning to destroy everything", x(600), y(300));
       break;
     case STORY_4C:
         image(getImage("./images/story/STORY_4.png", w(1000), h(1000)), x(0), y(0));
         fill(100, 255, 100);
-        text(player.getName().charAt(0) + ": It's easy to shoot a bridge sir!\nIt doesn't move!\nIt also doesn't shoot back, sir!", x(300), y(400));
+        text(player.getName().charAt(0) + ": JACOBO?? The erasmus guy?!", x(300), y(400));
       break;
     case STORY_4D:
          image(getImage("./images/story/STORY_4.png", w(1000), h(1000)), x(0), y(0));
          fill(255, 255, 255);
-         text("G: Not so fast, hotshot.\nEnemy will protect the assets\n with their local numerous forces,\nand also you'll need to fly low to avoid AAA.", x(600), y(400));
+         text("G: YES!! and for that he send all his Army \n composed by the paawola team", x(600), y(400));
       break;
     case STORY_4E:
          image(getImage("./images/story/STORY_4.png", w(1000), h(1000)), x(0), y(0));
          fill(100, 255, 100);
-         text(player.getName().charAt(0) + ": Did anybody try this experimental jet yet?", x(300), y(400));
+         text(player.getName().charAt(0) + ": Taths not poossible!! \nThey were too much ocupated doing parties and drinking beer", x(300), y(400));
       break;
     case STORY_4F:
          image(getImage("./images/story/STORY_4.png", w(1000), h(1000)), x(0), y(0));
          fill(255, 255, 255);
-         text("G: No, we can't risk warning the enemy.\n\n You're our best hope", x(600), y(400));
+         text("G: YES, but he convinced them to destroy everything,\n BE CAREFOUL WITH THEM, they will shoot you beers!! \nAre you ready to defeat them?!!", x(600), y(400));
          break;
     case STORY_4G:
          image(getImage("./images/story/STORY_4.png", w(1000), h(1000)), x(0), y(0));
          fill(100, 255, 100);
-         text(player.getName().charAt(0) + ": Yes sir, ready to serve!", x(300), y(400));
+         text(player.getName().charAt(0) + ": Claro que zii, go theeeereeeeeee!", x(300), y(400));
       break;
       
 

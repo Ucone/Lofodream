@@ -148,7 +148,7 @@ class Jet extends Element{
       this.reserveJets--;
       
     if (this.reserveJets < 0)
-      gameState = gameState.END;     
+      gameState = gameState.CREDITS;     
      
   }
   
