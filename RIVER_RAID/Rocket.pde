@@ -3,7 +3,7 @@ public class Rocket extends Element {
   boolean isEnemy = false;
   
   Rocket(boolean isEnemy) {
-    super("./images/sprites/rocket.png", 40, 40);
+    super("./images/sprites/rocket.png", w(20), w(40));
     this.isEnemy = isEnemy;
     
     if(isEnemy)
