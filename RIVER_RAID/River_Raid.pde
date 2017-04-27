@@ -245,7 +245,7 @@ void setup() {
 
   //background music
   music = new Sound();
-  isMusicOn = false;
+  isMusicOn = true;
   music.toggleMusic();
   
   if(!testing)
@@ -341,7 +341,7 @@ void draw() {
       jet.draw(yMaster);
       
       if(twoPlayers){
-         jet2.yPos = yMaster + 800;
+         jet2.yPos = yMaster + 700;
          jet2.update(nD);
          jet2.draw(yMaster);
       }
