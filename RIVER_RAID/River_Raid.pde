@@ -182,7 +182,7 @@ void setup() {
       
       cpSelection.setVisible(false);
   // Load images
-  startImg=loadImage("./images/welcome.png");
+  startImg=loadImage("./images/welcome.jpg");
   
   dashboard = loadImage("./images/interface/dashboard.png");
   underDashboard = loadImage("./images/interface/dashboard_under.png");
