@@ -81,7 +81,7 @@ public class Enemy extends Element{
     
     class FinalEnemy extends Enemy {
       public FinalEnemy(String str, int x, int y){
-        super(str, 300, 200);
+        super(str,w(100), w(120));
         this.kind = "";
         this.yPos = y;
         this.xPos = x;

@@ -8,8 +8,10 @@ public class FinalCredits {
     
     int x = 200 + (int) random(200);
     int y = - 100;
+    
     for (int i = 0; i< 15; i++){
-      FinalEnemy finalEnemy1 = new FinalEnemy("./images/credits/enemy_" + i + ".png", x, y);
+      x = 200 + (int) random(600);
+      FinalEnemy finalEnemy1 = new FinalEnemy("./images/sprites/enemy_" + i + ".png", x, y);
       finalEnemies.add(finalEnemy1);
       y -= 300;
       

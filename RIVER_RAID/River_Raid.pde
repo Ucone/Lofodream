@@ -588,7 +588,7 @@ void draw() {
   public void credits(){   
      
          jet.resurrect();
-         tint(255, 80);  
+         tint(255, 180);  
          image(happyBday, x(0), y(0));     
              
          tint(255);
