@@ -212,6 +212,7 @@ void setup() {
   musicOff.resize(w(50), h(50));
   play.resize(viewportW / 20, viewportW / 20);
   pause.resize(viewportW / 20, viewportW / 20);
+  happyBday.resize(viewportW, viewportH);
 
   //Check if we are on testing environment
   checkTesting();
@@ -586,6 +587,7 @@ void draw() {
 //CREDITS METHOD  
   public void credits(){   
      
+         jet.resurrect();
          tint(255, 80);  
          image(happyBday, x(0), y(0));     
              
