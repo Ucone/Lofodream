@@ -82,6 +82,10 @@ public class World {
         en.yPos = -randomGen.nextFloat()*(SECTION_SIZE - 1000);
       } while(checkCollision(en, World.C_EVERYTHING));
       enemies.add(en);
+      enemy_num++;
+        if(enemy_num >= 14){
+          enemy_num = 0;
+        }
     }
     print("Generated enemies, "+ (attempts - 1) + " failed attempts\n");
     

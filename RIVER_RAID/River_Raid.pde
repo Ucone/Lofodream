@@ -6,6 +6,7 @@ import controlP5.*;
 import java.nio.file.Paths;
 
 boolean testing = false;
+int enemy_num = 0;
 
 public enum GameState {WELCOME, JET_SELECTION, STORY, GAME, END, CREDITS};  // Different states of the game
 public enum StoryStage {STORY_1, STORY_2, STORY_3, STORY_4A, STORY_4B, STORY_4C, STORY_4D, STORY_4E, STORY_4F, STORY_4G, END}
@@ -118,8 +119,8 @@ void checkTesting(){
 
 
 void setup() {
-  //fullScreen(P2D);
-  size(1200,600,P2D);
+  fullScreen(P2D);
+  //size(1200,600,P2D);
   setViewports();
   
   fontSize = (int)(20. / 1920. * (float)viewportW);
