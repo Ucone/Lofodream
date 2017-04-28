@@ -520,7 +520,8 @@ void draw() {
             
        case CREDITS:            
          //Credits game   
-         credits();    
+         credits();   
+         yMaster = 0;
          //rocketTime = millis();     
        break;    
   }
